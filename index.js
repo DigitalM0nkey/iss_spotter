@@ -17,7 +17,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
     return console.log("It didn't work!", error);
   }
   // success, print out the deets!
-  console.log("PassTimes", passTimes);
+  //  console.log("PassTimes", passTimes);
 });
 
 // fetchCoordsByIP('207.194.49.162', (error, coord) => {
@@ -46,3 +46,5 @@ nextISSTimesForMyLocation((error, passTimes) => {
 //   }
 //   console.log('It worked! Details:', passTime);
 // });
+
+module.exports = { printPassTimes };
